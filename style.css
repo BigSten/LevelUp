@@ -164,16 +164,10 @@ hr {
 .header__btn:hover {
   transform: scale(1.1, 1.1);
 }
-
-/* .header__btn a {
-  cursor: pointer;
-  text-transform: uppercase;
-  border: 1px solid #fff;
-  padding: 5px 10px;
-} */
 /*CONTENT*/
 .content {
   flex: 1 1 auto;
+  /* background: url("bgContent.jpg") center / cover no-repeat fixed; */
 }
 /*COMPOSITION*/
 .composition {
@@ -212,7 +206,6 @@ hr {
   border: 2px dashed rgba(0, 0, 0, 0);
   border-radius: 5px;
   padding: 10px 20px 20px;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -235,7 +228,6 @@ hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* margin: 0 auto; */
 }
 
 .composition__photo img {
@@ -267,6 +259,7 @@ hr {
 /*REVIEWS*/
 .reviews {
   padding: 30px 0 105px;
+
 }
 
 .reviews__inner h2 {
@@ -424,9 +417,6 @@ hr {
   text-align: center;
 }
 
-
-
-
 .footer__timer {
   margin: 60px 0;
 }
@@ -449,18 +439,6 @@ hr {
   color: #000;
   margin-bottom: 10px;
 }
-
-.countdown-text {}
-
-
-
-
-
-
-
-
-
-
 
 .footer__content {
   display: flex;
@@ -492,13 +470,9 @@ hr {
   font-size: 32px;
   font-weight: 300;
   margin-top: 10px;
-
-
-
   animation-name: scale;
   animation-duration: 1.5s;
   animation-timing-function: ease-in;
-  /* animation-fill-mode: forwards; */
   animation-iteration-count: infinite;
 }
 
@@ -540,12 +514,6 @@ hr {
   }
 }
 
-
-
-
-
-
-
 .footer__form {
   flex: 1 1 50%;
   display: flex;
@@ -581,11 +549,6 @@ button[type = "submit"] {
 }
 
 
-
-
-
-
-
 /*MEDIA*/
 @media (max-width: 1200px) {
   .container {
@@ -597,8 +560,6 @@ button[type = "submit"] {
   .container {
     width: 960px;
   }
-
-
 }
 
 @media (max-width: 990px) {
@@ -870,7 +831,6 @@ button[type = "submit"] {
   .composition__product {
     top: 13%;
   }
-
 
   .description__photo img {
     width: 200px;
